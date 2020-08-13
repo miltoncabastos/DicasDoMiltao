@@ -1,4 +1,4 @@
-﻿namespace Domain
+﻿namespace Domain.Clientes
 {
     public class Cliente
     {

@@ -1,4 +1,4 @@
-using Domain;
+using Domain.Cursos;
 using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;

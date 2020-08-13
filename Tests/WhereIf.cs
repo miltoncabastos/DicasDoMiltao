@@ -1,5 +1,5 @@
 using Core;
-using Domain;
+using Domain.Clientes;
 using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
@@ -13,7 +13,7 @@ namespace Tests
         [TestMethod("Utilizando WhereIf para filtro LINQ em conjunto de dados")]
         [DataRow("Blumenau", 1)]
         [DataRow("", 2)]
-        public void UtilizandoWhereIf(string cidadeParaPesquisa, int resultCount)
+        public void DicasDoMiltao(string cidadeParaPesquisa, int resultCount)
         {
             //Arrange 
             var cursos = new List<Cliente>
