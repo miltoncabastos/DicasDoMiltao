@@ -8,7 +8,7 @@ namespace Tests
     [TestClass]
     public class TestandoColecoes
     {
-        [TestMethod("Fluent Assertions - Testando Coleções")]
+        [TestMethod("Fluent Assertions - Testando ColeÃ§Ãµes")]
         public void CollectionAssert()
         {
             //Arrange 

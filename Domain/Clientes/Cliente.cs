@@ -1,5 +1,8 @@
-﻿namespace Domain.Clientes
+﻿using System.Diagnostics;
+
+namespace Domain.Clientes
 {
+    [DebuggerDisplay("{Nome} - {Cidade}/{Estado}")]
     public class Cliente
     {
         public Cliente(string nome, string cidade, string estado)
@@ -9,8 +12,8 @@
             Estado = estado;
         }
 
-        public string Nome { get; private set; }
-        public string Cidade { get; private set; }
-        public string Estado { get; private set; }
+        public string Nome { get; }
+        public string Cidade { get; }
+        public string Estado { get; }
     }
 }
